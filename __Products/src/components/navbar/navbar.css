@@ -1,0 +1,82 @@
+.header {
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0;
+  z-index: 2;
+  width: 100%;
+}
+.btn {
+  cursor: pointer;
+}
+.nav {
+  background-color: rgba(23, 26, 219, 0.9);
+  font-size: 1.8rem;
+  min-height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 1px 8px rgba(20, 20, 20, 0.726);
+  position: relative;
+}
+.menu {
+  display: flex;
+  align-items: baseline;
+  margin: 0.5rem 2rem;
+  padding: 0.5rem 3rem 0.5rem 0.5rem;
+}
+.menu h2 {
+  color: white;
+  transition: all 0.5s ease-in-out;
+}
+.menu h2:hover {
+  color: rgb(62, 64, 65);
+}
+
+.menu-btn {
+  color:white;
+  padding: 0rem 0.2rem;
+  margin-right: 2rem;
+  font-size: 2.5rem;
+  background: none;
+  border: none;
+}
+
+.nav-menu {
+  margin: 0;
+  padding: 0.5rem 2rem 1rem 0.5rem;
+  list-style: none;
+  background: rgba(0, 0, 0, 0.884);
+  border-radius: 0.5rem;
+  position: absolute;
+  top: 5.5rem;
+}
+.nav-menu li a {
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+  color: blanchedalmond;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+}
+
+.nav-menu a:hover {
+  color: #b2dfdb;
+}
+
+.btn-login {
+  margin: 0.5rem 2rem;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  background-color: rgb(2, 2, 2);
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease 0s;
+}
+.btn-login:hover {
+  background-color: rgb(32, 32, 32);
+  color: #b2dfdb;
+}
+
+.hidden {
+  display: none;
+}

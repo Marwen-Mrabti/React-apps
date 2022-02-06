@@ -1,0 +1,18 @@
+.products{
+  margin-top:7rem;
+}
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 4rem;
+  padding: 1rem;
+  color:rgb(22, 19, 18);
+}
+
+.product-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
