@@ -1,0 +1,97 @@
+.mainNavbar {
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 8rem;
+  background-color: rgba(3, 3, 3, 0.9);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-logo {
+  color: rgb(28, 184, 163);
+  font-size: 2.4rem;
+  font-weight: 900;
+}
+.main-logo:hover {
+  filter: drop-shadow(16px 16px 20px red) invert(75%);
+}
+
+.nav-btn {
+  margin-right: 4rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.nav-btn i {
+  font-size: 4rem;
+  color: rgb(209, 177, 117);
+}
+.nav-btn i:hover {
+  color: rgba(201, 146, 44, 0.904);
+  filter: drop-shadow(16px 16px 20px rgba(185, 124, 33, 0.842));
+}
+
+/*MUI autocomplete*/
+
+.MuiOutlinedInput-root {
+  background-color: rgb(49, 111, 119);
+  border-radius: 2rem;
+  border: none;
+}
+
+.MuiFormControl-root {
+  background-color: rgb(105, 104, 105);
+  border: none;
+  border-radius: 2rem;
+}
+
+#combo-box-demo {
+  width: 20rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  border: 2px solid grey;
+  color: blue;
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 0.2rem;
+}
+
+#combo-box-demo-label {
+  color: orangered;
+  font-size: 1.6rem;
+}
+
+/* mui buttons*/
+.css-1q60rmi-MuiAutocomplete-endAdornment {
+  background-color: orange;
+  border-radius: 0.5rem;
+  margin-top: 0.2rem;
+}
+
+/* mui options list*/
+.MuiAutocomplete-noOptions {
+  background-color: rgb(163, 161, 161);
+  font-size: 1.5rem;
+}
+.MuiAutocomplete-listbox {
+  background-color: rgba(20, 20, 20, 0.8);
+}
+.MuiAutocomplete-option {
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: rgb(166, 178, 180);
+}
+.MuiAutocomplete-option:hover {
+  color: rgb(56, 136, 150);
+  background-color: rgba(31, 27, 27, 0.5);
+}

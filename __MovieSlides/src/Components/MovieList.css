@@ -1,0 +1,25 @@
+.swiper {
+  margin: 9rem auto 2rem auto;
+  width: 80vw;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  flex: 1 1 80%;
+  background-color: rgb(135, 141, 141);
+
+  width: 65%;
+  height: 70vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5rem;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+  background-color: rgb(9, 6, 182);
+}
