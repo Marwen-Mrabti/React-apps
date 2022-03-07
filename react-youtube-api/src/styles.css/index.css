@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  background-color: rgba(17, 17, 17, 0.5);
+  color: aliceblue;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.search-input {
+  /* background-color: rgb(160, 30, 30); */
+  width: 100%;
+  min-height: 5vh;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#search {
+  width: 70%;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.main-container {
+  /* background-color: rgba(88, 196, 56, 0.6); */
+  width: 95%;
+  min-height: 85vh;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 0.5rem;
+  color: black;
+}
+
+.video-details {
+  /* background-color: rgba(60, 126, 126, 0.8); */
+  flex: 1 1 50%;
+  width: 50vw;
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.video-container {
+  /* background-color: #fff; */
+
+  width: 85%;
+  margin: auto;
+  padding: 1rem;
+}
+#video {
+  width: 100%;
+  min-height: 65vh;
+}
+
+.videos-list {
+  /* background-color: rgba(50, 146, 146, 0.8); */
+  flex: 1 1 25%;
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+  padding-top: 1rem;
+}
+
+.video-item {
+  flex: 1 1 95%;
+  margin-bottom: 0.2rem;
+  cursor: pointer;
+}
+.video-thumbnail {
+  width: 250px;
+  height: 100%;
+}
